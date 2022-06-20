@@ -492,7 +492,7 @@ footer {
 }
 
 .footer__socials a {
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .footer__logo {
@@ -505,4 +505,16 @@ footer {
     line-height: 14px;
     opacity: 0.8;
     margin-bottom: 8px;
+}
+
+.footer__email::before {
+    content: url('../images/icons/envelope_icon.png');
+    margin-right: 5px;
+}
+
+.footer__web_site::before {
+    content: url('../images/icons/earth_icon.png');
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
 }
