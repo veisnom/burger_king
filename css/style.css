@@ -122,10 +122,12 @@ a {
 body {
     font-family: "Roboto", sans-serif;
     color: #fff;
+    min-width: 1140px;
 }
 
 .container {
     max-width: 1140px;
+    padding: 0 10px;
     margin: 0 auto;
 }
 
